@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import QuizzPage from '../../Pages/quizzPage/quizzPage'
+import QuizzPage from '../../pages/quizzPage/quizzPage'
 
 export default function Rotas() {
     return (
