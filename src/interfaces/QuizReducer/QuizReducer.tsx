@@ -1,7 +1,7 @@
-import { STAGES } from "../InitialState/initalState";
+import { STAGES } from "../InitialState/initialState";
 import { MainContextData } from "../MainContextData/MainContextData";
 import { Action } from "../Actions/Actions";
-import { initalState } from "../InitialState/initalState";
+import { initialState } from "../InitialState/initialState";
 import questions from '../../data/questions_completed'
 
 
@@ -56,7 +56,7 @@ export const quizReducer = (state: MainContextData, action: Action) => {
 
 
         case "NEW_GAME":
-            return initalState;
+            return initialState;
 
         case "CHECK_ANSWER": {
             if (state.answerSelected) return state

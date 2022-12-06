@@ -3,7 +3,7 @@ import questions from '../../data/questions_completed'
 
 export const STAGES = ["Start", "Category", "Playing", "End"]
 
-export const initalState: MainContextData = {
+export const initialState: MainContextData = {
     gameStage: STAGES[0],
     questions: questions,
     currentQuestion: 0,
