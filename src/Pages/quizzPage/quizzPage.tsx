@@ -1,8 +1,9 @@
+import { useQuiz } from "../../context/quiz";
 import GameOver from "../../components/gameOver/gameOver";
 import PickCategory from "../../components/pickCategory/pickCategory";
 import Question from "../../components/question/question";
 import Welcome from "../../components/welcome/welcome";
-import { useQuiz } from "../../context/quiz";
+
 
 export default function QuizzPage() {
     const { state, dispatch } = useQuiz()
