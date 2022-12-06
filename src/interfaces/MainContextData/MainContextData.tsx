@@ -1,5 +1,5 @@
 export interface MainContextData {
-    gameStage: string[number],
+    gameStage: string,
     questions?: any,
     currentQuestion: number,
     answerSelected: boolean,
