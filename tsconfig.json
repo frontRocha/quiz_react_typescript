@@ -16,6 +16,6 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src", "src/router/router.tsx", "src/router/rotas"],
+  "include": ["src", "router.tsx", "rotas"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
