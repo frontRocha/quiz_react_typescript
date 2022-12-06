@@ -4,7 +4,6 @@ import PickCategory from "../../components/pickCategory/pickCategory";
 import Question from "../../components/question/question";
 import Welcome from "../../components/welcome/welcome";
 
-
 export default function QuizzPage() {
     const { state, dispatch } = useQuiz()
 
